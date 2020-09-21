@@ -1,7 +1,8 @@
 import _ from 'romanize'
 
 function transform(num) {
-    return 'X';
+    const roman = require('romanize');
+    return roman(num)
 }
 
 export {
